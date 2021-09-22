@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fun with triangles</title>
+    <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+    <nav>
+        <ol class="ol-nav">
+            <a href="index.html"><li class="li-item">is triangle</li></a>
+            <a href="quiz.html"><li class="li-item">quiz</li></a>
+            <li class="li-item active">hypotenuse</li>
+            <a href="area.html"><li class="li-item">area</li></a>
+        </ol>
+    </nav>
+    <header>
+        <h1>
+            find hypotenuse
+        </h1>
+        <p>given two sides of a right angles triangle, finds the hypotenuse</p>
+    </header>
+    <div class="container">
+        <div class="section">
+            length of hypotenuse = sqrt(a² + b²)
+        </div>
+        <label for="a">enter side one</label>
+        <input id="a" type="number" placeholder="a (in cm)"/>
+        <label for="b">enter side two</label>
+        <input id="b" type="number" placeholder="b (in cm)"/>
+
+        <div class="container">
+        <button id="btn-hypotenuse">find hypotenuse</button>
+    </div>
+        <p id="hypo-output"></p>
+    </div>
+
+    <script src="hypo.js"></script>
+    
+</body>
+</html>

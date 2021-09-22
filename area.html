@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fun with triangles</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <nav>
+        <ol class="ol-nav">
+            <a href="index.html"><li class="li-item">is triangle</li></a>
+            <a href="quiz.html"><li class="li-item">quiz</li></a>
+            <a href="hypotenuse.html"><li class="li-item">hypotenuse</li></a>
+            <li class="li-item active">area</li></a>
+        </ol>
+    </nav>
+    <header>
+        <h1>
+            find area
+        </h1>
+        <p>given base and height of a triangle, finds the area</p>
+    </header>
+    <div class="container">
+        <div class="section">
+            area of triangle = 1/2(base x height)
+        </div>
+        <label for="base">enter base</label>
+        <input id="base" type="number" placeholder="(in cm)"/>
+<label for="height">enter height</label>
+        <input id="height" type="number" placeholder="(in cm)"/>
+    <div class="container">
+        <button id="btn-area">find area</button>
+    </div>
+        <p id="area-output"></p>
+    </div>
+
+    <script src="area.js"></script>
+    
+</body>
+</html>
