@@ -28,10 +28,12 @@ function isTriangle() {
       if (Number(angle1Val) + Number(angle2Val) + Number(angle3Val) === 180) {
         output.style.color = "green";
         output.innerText = "Yayy!! They make a triangle";
+      } else {
+        output.style.color = "red";
+        output.innerText = "Oops!! the angles don't make a triangle";
       }
     } else {
-      output.style.color = "red";
-      output.innerText = "Oops!! the angles don't make a triangle";
+    output.innerText = "INVALID INPUT";
     }
   } else {
     output.innerText = "INVALID INPUT";
