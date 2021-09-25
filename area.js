@@ -9,9 +9,13 @@ function validateNumber(str) {
     return !isNaN(str) && str.trim().length > 0;
   }
 
+function nonZero(number) {
+    return Number(number) > 0;
+}
+
 function handleArea() {
     output.style.display = "block";
-    if(validateNumber(base.value) && validateNumber(height.value)) {
+    if(validateNumber(base.value) && validateNumber(height.value) && nonZero(base.value) && nonZero(height.value)) {
         output.innerText = "area is " + 0.5*Number(base.value)*Number(height.value) +" cm²";
     } else {
         output.innerText = "INVALID";

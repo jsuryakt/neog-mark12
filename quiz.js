@@ -1,4 +1,4 @@
-var quizAns = ["90","right angled"];
+var quizAns = ["90","right angled","180","15","3"];
 var form = document.querySelector(".quiz-form");
 var btnQuiz = document.querySelector("#btn-submit-quiz");
 var quizOutput = document.querySelector("#quiz-output");
